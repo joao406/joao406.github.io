@@ -1,0 +1,79 @@
+/* Reset padrão de estilos */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Estilos de fundo */
+body {
+    background-color: #000;
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    font-size: 36px;
+}
+
+ul {
+	margin-left: 3%;
+}
+
+#projetos {
+	margin-bottom: 60px;
+	background-color: #0d0d0d;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#sobre, #aprendizado {
+	margin: 15px;
+	background-color: #0d0d0d;
+}
+
+/* Navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+/* Seções */
+section {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+/* Rodapé */
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #0e0e0e;
+    text-align: center;
+    width: 100%;
+}
+
+/* Links */
+a:hover {
+    text-decoration: underline;
+    color: #0F0;
+}
