@@ -30,7 +30,7 @@ ul {
 	background-color: #0d0d0d;
 	border-radius: 5px;
 	box-shadow: 0px 0px 5px #00ff00;
-	margin-bottom: 15px
+	margin-bottom: 60px
 }
 
 #sobre {
@@ -41,6 +41,16 @@ ul {
 }
 
 /* Navegação */
+nav a {
+	border: 1px solid #00ff00;
+	padding: 5px;
+}
+
+nav a:hover {
+	background-color: blue;
+	color: black;
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -73,10 +83,4 @@ footer {
 	background-color: #0e0e0e;
     text-align: center;
     width: 100%;
-}
-
-/* Links */
-a:hover {
-    text-decoration: underline;
-    color: #0F0;
 }
